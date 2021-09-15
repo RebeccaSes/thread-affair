@@ -1,0 +1,17 @@
+.header-search {
+    float: left;
+
+    li {
+        display: inline-block;
+
+        // ... li:first-of-type
+        &:first-of-type {
+        color: $brand-primary;
+        margin-right: 8px;
+        }
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+}
